@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>Zaeemkhan.me</title>
+    <meta name="generator" content="Zaeem khan" />
+    <meta property="og:title" content="Zaeem Cv" />
+    <meta name="author" content="Admin" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="Zaeem khan CV" />
+    <meta property="og:description" content="" />
+    <meta property="og:site_name" content="Zaeem khan CV" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="Zaeem khan CV" />
+    
+    <!-- End Jekyll SEO tag -->
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe&amp;display=swap" rel="stylesheet">
+
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="/assets/css/animate.css" />
+    <link rel="stylesheet" href="/assets/css/jarallax.css" />
+    <link rel="stylesheet" href="/assets/css/swiper.css" />
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css" />
+    <link rel="stylesheet" href="/assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="/assets/css/syntax.css" />
+
+<!-- Favicons -->
+    <link rel="shortcut icon" href="/assets/images/favicons/favicon.ico">
+    <style>
+        ul.ordering {
+            list-style-type: circle;
+        }
+    </style>
+</head>
+<body class=" home">
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="box-1">
+            <div class="centrize full-width">
+                <div class="vertical-center">
+                    <div class="spinner">
+                        <div class="lines"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-2"></div>
+    </div>
+    <!-- Container -->
+    <div class="container">
+
+
+
+        <partial name="_Header" />
+        <!-- Wrapper -->
+        <div class="wrapper">
+
+            <!-- Background -->
+            <div class="background-bg">
+                <div class="background-filter">
+                    <div class="background-img" style="background-image: url(/assets/img/User.jpg); margin-top: 100px "></div>
+                </div>
+            </div>
+            @RenderBody()
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="socials">
+
+                <a target="_blank" href="https://api.whatsapp.com/send/?phone=923075378081&text=Hi Zaeem Khan we need assistance from you." title="Whatsapp">
+                    <i class="icon fab fa-whatsapp"></i>
+                </a>
+                <a target="_blank" href="https://www.messenger.com/t/khanzaeem010" title="Messanger">
+                    <i class="icon fab fa-facebook-messenger"></i>
+                </a>
+                <a target="_blank" href="https://github.com/zaeem010" title="Github">
+                    <i class="icon fab fa-github"></i>
+                </a>
+
+                <a target="_blank" href="https://stackoverflow.com/users/13423469/khan-zaeem" title="stackoverflow">
+                    <i class="icon fab fa-stack-overflow"></i>
+                </a>
+
+               
+            </div>
+        </footer>
+    </div><!-- Plugins -->
+  
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-10424R4ZG2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-10424R4ZG2');
+</script>  
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/velocity.min.js"></script>
+    <script src="/assets/js/jquery.validate.js"></script>
+    <script src="/assets/js/magnific-popup.js"></script>
+    <script src="/assets/js/typed.js"></script>
+    <script src="/assets/js/jarallax.js"></script>
+    <script src="/assets/js/jarallax-video.js"></script>
+    <script src="/assets/js/jarallax-element.js"></script>
+    <script src="/assets/js/imagesloaded.pkgd.js"></script>
+    <script src="/assets/js/isotope.pkgd.js"></script>
+    <script src="/assets/js/owl.carousel.js"></script>
+    <script src="/assets/js/swiper.js"></script>
+    <script src="/assets/js/rrssb.js"></script>
+    <script src="/assets/js/simple-jekyll-search.js"></script>
+
+    <!-- Main -->
+    <script src="/assets/js/scripts.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+
+</html>
+
+
+@*<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>@ViewData["Title"] - MyCv</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+                <div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">MyCv</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                        </ul>
+                        <partial name="_LoginPartial" />
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="container">
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; 2022 - MyCv - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            </div>
+        </footer>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
+    </html>*@
